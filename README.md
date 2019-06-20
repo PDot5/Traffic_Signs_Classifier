@@ -99,3 +99,9 @@ Perhaps the low percentage in the Test Set Accuracy of only 60% could be attribu
 * I believe that introducing some more preprocessed techniques may help resolve some of the issues
 * Determine best Learning Rate
 * Determing best Dropout Rate
+
+### References:
+https://jwdinius.github.io/projects/Traffic_Sign_Classifier/
+https://www.jessicayung.com/explaining-tensorflow-code-for-a-convolutional-neural-network/
+https://github.com/atveit/TrafficSignClassification/blob/master/Traffic_Sign_Classifier.py
+https://www.youtube.com/watch?v=vtqvqHKzHA0
