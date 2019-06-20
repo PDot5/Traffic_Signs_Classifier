@@ -27,24 +27,24 @@ In this project, numpy was used for shape in order to calculate the dataset and 
 ### 3. Normalized Distribution of Traffic Sign Classes:
 Here are some links to visual data:
 - Normalized Distribution of Traffic Sign Classes
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/NormalizedzDistributionClasses.png "Normalized Distribution of Traffic Sign Classes")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/NormalizedzDistributionClasses.png "Normalized Distribution of Traffic Sign Classes")
 
 - Sample of Training Set
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/SampleTrainingData.png "Sample Training Data")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/SampleTrainingData.png "Sample Training Data")
 
 - 43 Classes Visualization: (Using signname.csv and append the labels to the images)
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/43ClassesVisualization.png "Visualization of 43 Traffic Sign Classes")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/43ClassesVisualization.png "Visualization of 43 Traffic Sign Classes")
 
 # Step 2: Design and Test a Model Architecture
 ### 1. Designing and Implementing:
 In designing and implementing a deep learning model that learns to recognize traffic signs, the training and test data was using to test the model on the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset
 Using the LeNet solution from the lecture, the validation accuracy was measured.
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/ValidationAccuracy.png "Validation Accuracy")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/ValidationAccuracy.png "Validation Accuracy")
 The accuracy rate was greater than 98% and the model was saved.
 
 ### 2. Preprocessed Data:
 First I reshaped the images giving an updated shape of (32x32x3). I explored specific testing data and output the classes from the specific images I downloaded from the internet in order to visualize the training data.
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/SpecificClassesOutput.png "Specific Classes Output")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/SpecificClassesOutput.png "Specific Classes Output")
 
 Additionally, I used a couple techniques for grayscaling and normalizing the data. (One technique for each would have sufficed but I was experimenting). Next I created a preprossed function to call on grayscaling and normalization.
 
@@ -83,14 +83,14 @@ Once the code is ran, the training will begin and calculate the validation accur
 After downloading 5 images from the internet, I created a function to read in the images and applied the grayscale technique. I output a visual representation of both the color images and the grayscale.
 
 In addition to this, I resized the images to (32x32x3) and normalized them. With the new test set I recalled the model.meta data and evaluated the new images with the testing data. My current results are below:
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/DownloadedImagesColor_grayscale.png "Downloaded Images Color & Grayscale")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/DownloadedImagesColor_grayscale.png "Downloaded Images Color & Grayscale")
 
 In addition, I wanted to display the results from the processed test set:
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/ConvolutionalNetworkTestSet.png "Processed Convolutional Network Test Set")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/ConvolutionalNetworkTestSet.png "Processed Convolutional Network Test Set")
 
 This model has calculated a 60% Test Set Accuracy, only getting 3 out of the 5 images correct:
 
-![alt text](https://github.com/PDot5/CarND-Traffic-Sign-Classifier-Project/Markdown_Image_Ref/Test_Set_Accuracy_Prediction.png "Test Set Accuracy Prediction")
+![alt text](https://github.com/PDot5/Traffic_Signs_Classifier/tree/master/Markdown_Image_Ref/Test_Set_Accuracy_Prediction.png "Test Set Accuracy Prediction")
 
 ## Potential Shortcomings
 Perhaps the low percentage in the Test Set Accuracy of only 60% could be attributed to the high dropout rate could have contributed to the results for overfitting. Additionally I could have determined a better learning rate.
