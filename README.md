@@ -105,3 +105,4 @@ https://jwdinius.github.io/projects/Traffic_Sign_Classifier/
 https://www.jessicayung.com/explaining-tensorflow-code-for-a-convolutional-neural-network/
 https://github.com/atveit/TrafficSignClassification/blob/master/Traffic_Sign_Classifier.py
 https://www.youtube.com/watch?v=vtqvqHKzHA0
+https://github.com/Goddard/udacity-traffic-sign-classifier/blob/master/Traffic_Sign_Classifier.ipynb
