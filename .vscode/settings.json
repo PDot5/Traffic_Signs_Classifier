@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/anaconda3/envs/IntroToTensorflow/bin/python"
+    "python.pythonPath": "/anaconda3/envs/IntroToTensorflow/bin/python",
+    "python.dataScience.jupyterServerURI": "local"
 }
